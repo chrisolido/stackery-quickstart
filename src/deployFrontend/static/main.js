@@ -1,5 +1,5 @@
 // Add your API endpoint
-const API_ENDPOINT = "https://1vjfvjlwig.execute-api.ap-southeast-1.amazonaws.com/bogs_development";
+const API_ENDPOINT = "https://1vjfvjlwig.execute-api.ap-southeast-1.amazonaws.com";
 const time = new Date();
 
 // AJAX POST
