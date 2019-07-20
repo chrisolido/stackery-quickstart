@@ -115,7 +115,7 @@ Resources:
         - ResourceName: deployFrontend
       CodeUri: src/deployFrontend
       Handler: index.handler
-      Runtime: nodejs10.x
+      Runtime: nodejs8.10
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
