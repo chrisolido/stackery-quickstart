@@ -8,8 +8,8 @@ def handler(event, context):
   table = dynamodb.Table(table_name)
 
   params = {
-    'id': '1', # modify with each invoke so the id does not repeat
-    'content': 'This is my content' # modify content here
+    'id': '2', # modify with each invoke so the id does not repeat
+    'content': 'This is my  2 content' # modify content here
   }
 
   # Write a new item to the Items table
